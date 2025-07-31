@@ -1,3 +1,3 @@
 # MySite
 Personal Site
-[http](https://macc.dev/)
+[http]macc.dev
