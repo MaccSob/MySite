@@ -1,3 +1,2 @@
 # MySite
-Personal Site
-[http](macc.dev)
+My Personal site.
