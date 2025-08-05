@@ -1,4 +1,4 @@
-import { NavLinks } from "./navbar"
+import { NavLinks } from "./navigation/navbar"
 
 export default function RootLayout({
   children,
