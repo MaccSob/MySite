@@ -1,5 +1,4 @@
-import About from "@/pages/about/about"
-import Navbar from "./components/navigation/navbar/navbar"
+import { NavLinks } from "./navbar"
 
 export default function RootLayout({
   children,
@@ -8,7 +7,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Navbar></Navbar>
+              <NavLinks />
       <body>{children}</body>
     </html>
   )
