@@ -6,7 +6,7 @@ const About = () => {
 
     return <>
     
-    PL/ENG ABOUT ME HERE 
+    <h1> PL/ENG ABOUT ME HERE </h1>
 
     
     

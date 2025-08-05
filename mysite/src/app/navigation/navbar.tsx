@@ -2,6 +2,7 @@
  
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
+import '../ui/navbar.css'
  
 export function NavLinks() {
   const pathname = usePathname()
@@ -17,6 +18,13 @@ export function NavLinks() {
         href="/about"
       >
         About
+      </Link>
+
+      <Link
+        className={`link ${pathname === '/contact' ? 'active' : ''}`}
+        href="/contact"
+      >
+        Contact
       </Link>
     </nav>
   )

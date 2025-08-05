@@ -6,7 +6,7 @@ const Contact = () => {
 
     return <>
     
-   CONTACT HERE PL/ENG
+    <h1>CONTACT HERE PL/ENG </h1>
     
     
     
