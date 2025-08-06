@@ -9,11 +9,37 @@ nav {
     justify-content: space-around;
     flex-direction: row;
     gap: 25px;
+      border-bottom: 1px solid #BBBBBB;
+
 }
+
 a {
+     font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #031D44;
+  padding: 20px 0px;
+  margin: 0px 20px;
+  display: inline-block;
+  position: relative;
+  opacity: 0.75;
     list-style: none;
-    text-decoration: none;
+      transition: transform 750ms;
+    will-change: transform;
     color: rgba(21, 234, 42, 0.563);
+}
+a:before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #031D44;
+}
+a:hover {
+    transform: translateY(10px);
+      opacity: 1;
+
 }
 h1 {
     text-align: center;
