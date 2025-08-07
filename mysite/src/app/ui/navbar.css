@@ -3,6 +3,7 @@
 * {
       font-family: "Roboto", sans-serif;
     font-size: 25px;
+    background-color: #ffff;
 }
 nav {
     display: flex;
@@ -27,7 +28,7 @@ a {
     list-style: none;
       transition: transform 750ms;
     will-change: transform;
-    color: rgba(21, 234, 42, 0.563);
+    color: #0087ca;
 }
 a:before {
   transition: 300ms;
@@ -39,8 +40,32 @@ a:before {
 a:hover {
     transform: translateY(10px);
       opacity: 1;
+      font-size: 20px;
 
 }
 h1 {
     text-align: center;
+    color: #141c3a;
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }

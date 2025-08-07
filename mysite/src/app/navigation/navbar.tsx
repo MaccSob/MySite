@@ -9,23 +9,30 @@ export function NavLinks() {
  
   return (
     <nav>
+            <div className='hover-underline-animation'>
       <Link className={`link ${pathname === '/' ? 'active' : ''}`} href="/">
         Home
-      </Link>
- 
+      </Link> 
+</div>
+
+ <div className='hover-underline-animation'>
       <Link
         className={`link ${pathname === '/about' ? 'active' : ''}`}
         href="/about"
       >
         About
       </Link>
+      </div>
 
+<div className='hover-underline-animation'>
       <Link
         className={`link ${pathname === '/contact' ? 'active' : ''}`}
         href="/contact"
       >
         Contact
       </Link>
+      </div>
+      
     </nav>
   )
 }
