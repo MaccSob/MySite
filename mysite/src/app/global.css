@@ -1,0 +1,22 @@
+h1 {
+    font-size: 65px;
+     text-align: center;
+    color: #141c3a;
+    text-shadow: 1px 1px 2px pink;
+}
+
+.undertext {
+    color: grey;    
+    font-size: 24px;
+    text-align: center;
+}
+.gridbox {
+    background-color: #fff;
+}
+.container {
+     grid-template-columns: repeat(6, 1fr);
+      grid-template-columns: repeat(2, 1fr);
+  column-gap: 25px;
+  row-gap: 15px;
+    display: grid;
+}

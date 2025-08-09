@@ -43,10 +43,7 @@ a:hover {
       font-size: 20px;
 
 }
-h1 {
-    text-align: center;
-    color: #141c3a;
-}
+
 .hover-underline-animation {
   display: inline-block;
   position: relative;
@@ -68,4 +65,10 @@ h1 {
 .hover-underline-animation:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+.gridbox {
+    background-color: #0087ca;
+}
+.container {
+    display: grid;
 }
