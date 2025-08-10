@@ -10,12 +10,36 @@ export default function Home() {
 
     <div className="container">
 
-      <div className="gridbox">1</div>
-      <div className="gridbox">2</div>
-      <div className="gridbox">3</div>
-      <div className="gridbox">4</div>
-      <div className="gridbox">5</div>
-      <div className="gridbox">6</div>
+      <div className="gridbox">
+        <h4>Weather Checker App</h4>
+        <p className='par1'> Technologies used: OpenWeatherAPI, JavaScript, CSS, HTML5, Webpack.</p>
+      </div>
+      <div className="gridbox">
+         <h4>Message Board App</h4>
+          <p className='par2'> Technologies used: ExpressJS, NodeJS, CSS, HTML5(EJS), PostgreSQL. </p>
+      </div>
+      <div className="gridbox">
+        <h4>Application</h4>
+        <p className='par3'>Technologies used: ReactJS, CSS, HTML5, ViteJS,</p>
+      </div>
+      <div className="gridbox">
+        <h4>Application</h4>
+      </div>
+      <div className="gridbox">
+        <h4>Application</h4>
+      </div>
+      <div className="gridbox">
+        <h4>Application</h4>
+      </div>
+       <div className="gridbox">
+        <h4>Application</h4>
+       </div>
+      <div className="gridbox">
+       <h4>Application</h4>
+      </div>
+      <div className="gridbox">
+        <h4>Application</h4>
+      </div>
 
 
 
