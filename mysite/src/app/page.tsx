@@ -12,18 +12,19 @@ export default function Home() {
 
       <div className="gridbox">
         <h4>Weather Checker App</h4>
-        <p className='par1'> Technologies used: OpenWeatherAPI, JavaScript, CSS, HTML5, Webpack.</p>
+        <p className='par1'> Technologies used: OpenWeatherAPI, JavaScript, CSS, HTML, Webpack.</p>
       </div>
       <div className="gridbox">
          <h4>Message Board App</h4>
-          <p className='par2'> Technologies used: ExpressJS, NodeJS, CSS, HTML5(EJS), PostgreSQL. </p>
+          <p className='par2'> Technologies used: ExpressJS, NodeJS, CSS, HTML(EJS), PostgreSQL. </p>
       </div>
       <div className="gridbox">
         <h4>Application</h4>
         <p className='par3'>Technologies used: ReactJS, CSS, HTML5, ViteJS,</p>
       </div>
       <div className="gridbox">
-        <h4>Application</h4>
+        <h4>Movies Comparision App</h4>
+        <p className='par4'>Technologies Used: OMDB API JavaScript, CSS/SCSS, HTML.</p>
       </div>
       <div className="gridbox">
         <h4>Application</h4>
