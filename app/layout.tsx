@@ -1,10 +1,10 @@
-// app/layout.tsx
 import Navbar from "./navigation/navbar";
+import "./global.css"
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html>
-      <body className="bg-[#F7F4EF]">
+      <body className="bg-[#fffff]">
         <Navbar />
         <main className="pt-16">{children}</main>
       </body>
